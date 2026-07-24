@@ -1,5 +1,10 @@
 <div class="lang-switcher">
-  <a href="?lang=vi" class="{% if page.lang == 'vi' %}active{% endif %}">VI</a>
-  <span>|</span>
-  <a href="?lang=en" class="{% if page.lang == 'en' %}active{% endif %}">EN</a>
+  {% assign posts = site.posts | where: "ref", page.ref %}
+  {% for post in posts %}
+    <a href="{{ post.url }}" 
+       class="{% if post.lang == page.lang %}active{% endif %}">
+      {{ post.lang | upcase }}
+    </a>
+    {% unless forloop.last %}<span>|</span>{% endunless %}
+  {% endfor %}
 </div>
