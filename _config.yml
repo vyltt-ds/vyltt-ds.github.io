@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title:  1.01**
+title:  1.001**
 
 tagline: DA - DS - AI
 
@@ -46,12 +46,12 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  # google: # fill in your Google verification code
+  # bing: # fill in your Bing verification code
+  # alexa: # fill in your Alexa verification code
+  # yandex: # fill in your Yandex verification code
+  # baidu: # fill in your Baidu verification code
+  # facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
