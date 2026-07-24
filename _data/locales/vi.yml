@@ -1,0 +1,23 @@
+layout:
+  home: Trang Chủ
+  categories: Danh Mục
+  tags: Thẻ
+  archives: Lưu Trữ
+  about: Giới Thiệu
+
+panel:
+  lastmod: Cập Nhật Gần Đây
+  trending_tags: Thẻ Phổ Biến
+  toc: Mục Lục
+
+post:
+  written_by: Tác Giả
+  posted: Đăng Ngày
+  updated: Cập Nhật
+  words: từ
+  read_time: phút đọc
+  comments: Bình Luận
+  share: Chia Sẻ
+
+search:
+  cancel: Huỷ
